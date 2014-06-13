@@ -2,27 +2,27 @@
 <config>
 
 	<modules>
-		<Think_Kudos>
+		<Think_Dodson>
 			<version>0.1.0</version>
-		</Think_Kudos>
+		</Think_Dodson>
 	</modules>
 	
 	 <global>
 	 	<blocks>
     		<Think>
-				<class>ThinkKudos_Setup_Block</class>
+				<class>ThinkDodson_Setup_Block</class>
     		</Think>
     	</blocks>
     	<resources>
-    	    <kudos_setup>
+    	    <dodson_setup>
     	        <setup>
-    	            <module>Think_Kudos</module>
+    	            <module>Think_Dodson</module>
 				  <class>Mage_Eav_Model_Entity_Setup</class>
 				</setup>
 				<connection>
 				  <use>default_setup</use>
 				</connection>
-    	    </kudos_setup>
+    	    </dodson_setup>
     	</resources>
      </global>    
 </config>
