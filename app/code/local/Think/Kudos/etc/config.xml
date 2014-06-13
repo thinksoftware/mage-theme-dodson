@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Think_Kudos>
+			<version>0.1.0</version>
+		</Think_Kudos>
+	</modules>
+	
+	 <global>
+	 	<blocks>
+    		<Think>
+				<class>ThinkKudos_Setup_Block</class>
+    		</Think>
+    	</blocks>
+    	<resources>
+    	    <kudos_setup>
+    	        <setup>
+    	            <module>Think_Kudos</module>
+				  <class>Mage_Eav_Model_Entity_Setup</class>
+				</setup>
+				<connection>
+				  <use>default_setup</use>
+				</connection>
+    	    </kudos_setup>
+    	</resources>
+     </global>    
+</config>
